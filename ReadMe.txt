@@ -6,7 +6,7 @@ Fran Borić - fran.boric@student.math.hr, fboric@yahoo.com
 
 Tema - Predviđanje pojave boli u lumbarnom dijelu kralježnice strojnim učenjem
 
-------------------------------------------------------------------------UVOD---------------------------------------------------------------
+-----------------------------------UVOD----------------------------------------------------------
 
 Ovo je kratka dokumentacija za kod u datoteci Zavrsni_kod_Sarsorama.py, za projekt grupe Sarsorama u sklopu predmeta Strojno Ucenje na PMF-MO 2019/2020.
 
@@ -16,7 +16,7 @@ Sekundarni cilj projekta je uspješna (hardcoded) implementacija TZV. Partial Co
 
 Program se pokrece pokretanjem Zavrsni_kod_Sarsorama.py datoteke, bilo kroz neki IDE, bilo direktno kroz terminal/konzolu.
 
------------------------------------------------------------------------STRUKTURA KODA-----------------------------------------------------
+----------------------------------------STRUKTURA KODA-----------------------------------------------------
 >unos relevantnih biblioteka: numpy, sklearn, pandas, matplotlib.pyplot, seaborn, os
 >unos podataka i njihova normalizacija
 >implementacija PCA
@@ -29,7 +29,7 @@ Program se pokrece pokretanjem Zavrsni_kod_Sarsorama.py datoteke, bilo kroz neki
 >ispisom relevantne statistike za dobivene modele: točnost (accuracy, score) i matrica konfuzije
 >implementacija funkcije is_my_lower_back_going_to_hurt() čijim se pozivom u konzoli mogu upisati kutovi kostiju za jednu osobu/1 redak podataka, te ispisuje predviđanja                     pojave boli u leđima s obzirom na oba modela
 
---------------------------------------------------------------------KORIŠTENJE BIBLIOTEKA-------------------------------------------
+-------------------------------------------KORIŠTENJE BIBLIOTEKA-------------------------------------------
 >pandas
 -unos podataka
 
